@@ -39,7 +39,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/Account'
     get:
-      description: Get Accounts
+      description: Query Accounts
       operationId: Accounts/getAccounts
       parameters:
       - in : query
